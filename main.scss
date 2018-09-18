@@ -1,0 +1,25 @@
+$logo-colour: #F44336;
+$text-colour: #fafafa;
+$font-name: "Open Sans", sans-serif;
+
+
+.wrapper {
+    width: 200px;
+    height: 200px;
+    background-color: $logo-colour;
+    p {
+      font-size: 30px;
+      color: $text-colour;
+      font-family: $font-name;
+    }
+}
+
+
+/* CHALLENGE
+
+CREATE A VARIABLE CALLED $font-name that is set to "Open Sans", sans-serif
+
+set p tag's font-family to $font-name
+
+check your CSS to make sure it has been created properly.
+*/
